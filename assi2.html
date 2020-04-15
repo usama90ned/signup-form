@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head><title>SignUp Form</title>
+    
+    <link rel="stylesheet" href="assi2.css"/>
+    </head>
+<body>
+<form>
+    <img src="img/signup.jpg" width="1550px">
+
+    <h1 style="text-align: center;">Student Registration Form</h1>
+  FIRSTNAME:
+  <input type="text" placeholder="firstname"/><br></br>
+  LASTNAME:
+  <input type="text" placeholder="lastname"/><br></br>
+
+  <label>Date of Birth:</label>
+  <input type="datetime-local"/><br></br>
+
+  <label>EMAIL ID</label>
+  <input type="text" placeholder="Email id"/><br></br>
+
+  <label>Mobile number</label>
+  <input type="number" placeholder="mobile number"/><br></br>
+
+ <label for="gender">Select Gender</label><br></br>
+  <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br></br>
+
+<label>ADDRESS</label>
+<input type="text" placeholder="address"/>atleast 20 charcter<br></br>
+
+<label for="city">CITY </label>
+<input type="text" placeholder="enter city name"/> maxi 30 character<br></br>
+
+<label>COUNTRY</label>
+<input type="text" placeholder="country"/><br></br>
+
+<label>HOBBIES</label>
+<input type="checkbox"/>freelancing<br></br>
+<input type="checkbox"/>web development<br></br>
+<input type="checkbox"/>coffee and coding<br></br>
+
+<label> <b>QUALIFICATION</b></label><br></br>
+<table>
+    <tr>
+        <th>matric</th>
+        <th>percentage</th>
+        <th>year of passing</th>
+    </tr>
+    <tr>
+   <th><input type=""/></th>
+    <th><input type=""/></th>
+    <th> <input type=""/></th>
+ </tr>
+    <tr>
+        <th>intermediate</th>
+        <th>percentage</th>
+        <th>year of passing</th>
+    </tr>
+    <tr>
+        <th><input type=""/> </th>
+        <th> <input type=""/></th>
+        <th><input type=""/></th>
+    </tr>
+   
+</table><br><br>
+
+<div class="buttonHolder">
+    <button onclick="myfun()">submit</button>
+   <button onclick="renew()">reset</button>
+  </div>
+
+</form>
+
+<script src="assi2.js"></script>
+
+</body>
+<!-- <script src="assi2.js"></script> -->
+</html>
